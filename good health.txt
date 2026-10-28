@@ -1,1 +1,29 @@
 
+print("🌿 Welcome to Healthy Habits Tracker!")
+
+water = int(input("How many glasses of water did you drink today? "))
+sleep = float(input("How many hours did you sleep? "))
+exercise = int(input("How many minutes did you exercise? "))
+
+print("\n--- Your Daily Health Report ---")
+print("Water glasses:", water)
+print("Sleep hours:", sleep)
+print("Exercise minutes:", exercise)
+
+if water >= 8:
+    print("Water: Great job staying hydrated!")
+else:
+    print("Water: Remember to drink water regularly.")
+
+if sleep >= 8:
+    print("Sleep: Good job getting enough rest!")
+else:
+    print("Sleep: Try to maintain a regular sleep schedule.")
+
+if exercise >= 30:
+    print("Exercise: Great work staying active!")
+else:
+    print("Exercise: Try to include some movement in your day.")
+
+print("\nKeep building healthy habits! 🌟")
+
